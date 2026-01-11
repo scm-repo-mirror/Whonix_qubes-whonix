@@ -96,7 +96,7 @@ qubes-whonix (0:11.0.0-1) jessie; urgency=medium
   * uwt: use qubes-services; removed unneeded include
   * postinst: Removed sdwdate and whonixcheck from being disabled
   * Renamed whonixsetup.done to whonixsetup.skip
-  * Removed WIP whonixcheck.* systemd releated files. Not needed
+  * Removed WIP whonixcheck.* systemd related files. Not needed
     anymore.
   * Renamed whonix-firewall-plugin -> whonix-firewall-plugin.sh
   * Renamed /etc/whonix.d/40_whonixcheck_qubes -> 40_qubes
@@ -120,7 +120,7 @@ qubes-whonix (0:11.0.0-1) jessie; urgency=medium
   * messages: Added firewall-failed and tor-disabled messages &
     copyright
   * qubes-whonixsetup: Added code to deal with firewall failure and tor-
-    disable serivce
+    disable service
   * utility_functions.sh: Removed sudo, added comments and copyright
   * Mass add/modify copyright, comments
   * Added a postinit service to take care of bind-dirs and stuff that
@@ -205,7 +205,7 @@ qubes-whonix (0:10.0.2-1) wheezy; urgency=medium
   * Use new whonix-setup-wizard directory for *.done files Use
     50_whonixcheck_user instead of 30_whonixcheck_default Enable new
     control-port-filter-python.service
-  * Remove unneeded bind directories due to new localtion of whonix
+  * Remove unneeded bind directories due to new location of whonix
     status files
   * - Remove references to old whonix status files; use new references -
     Start whonixcheck last - Add missing whonixcheck for workstation -
@@ -322,7 +322,7 @@ qubes-whonix (0:9.6.1-1) unstable; urgency=medium
   * Removed extra linefeed at end of files
   * Changed WHONIX_QUBES to QUBES_WHONIX and exit 0 if not running in
     Qubes environment
-  * replaced make-helper.bsh script incase it was corrupt
+  * replaced make-helper.bsh script in case it was corrupt
   * Modified Makefile to read better
   * Remove duplicate entry from Makefile
   * Make replacement make-helper.bsh executable
